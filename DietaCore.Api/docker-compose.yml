@@ -1,0 +1,10 @@
+
+services:
+  DietaCore-api:
+    build:
+      context: .
+      dockerfile: DietaCore.Api/Dockerfile
+    env_file:
+      - DietaCore.Api/.env
+    ports:
+      - "8080:8080"

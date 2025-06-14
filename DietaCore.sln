@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DietaCore.Entities", "DietaCore.Entities\DietaCore.Entities.csproj", "{98F246F3-5782-4612-878E-383F39A8F011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DietaCore.DataAccess", "DietaCore.DataAccess\DietaCore.DataAccess.csproj", "{B11E1114-217C-4C52-B3C3-6D2BD785651A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DietaCore.Dto", "DietaCore.Dto\DietaCore.Dto.csproj", "{15F717C2-E12A-4C50-808B-F99D1E50DAFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DietaCore.Business", "DietaCore.Business\DietaCore.Business.csproj", "{0F5C4248-2B8F-44B1-B994-3DA5C2FE55EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DietaCore.Shared", "DietaCore.Shared\DietaCore.Shared.csproj", "{AED0F87F-D725-4F2D-923A-A6214CC4C577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DietaCore.Api", "DietaCore.Api\DietaCore.Api.csproj", "{3E733E72-B2B2-4DD7-B32C-D11C4B029FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98F246F3-5782-4612-878E-383F39A8F011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F246F3-5782-4612-878E-383F39A8F011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F246F3-5782-4612-878E-383F39A8F011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F246F3-5782-4612-878E-383F39A8F011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11E1114-217C-4C52-B3C3-6D2BD785651A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11E1114-217C-4C52-B3C3-6D2BD785651A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11E1114-217C-4C52-B3C3-6D2BD785651A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11E1114-217C-4C52-B3C3-6D2BD785651A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F717C2-E12A-4C50-808B-F99D1E50DAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F717C2-E12A-4C50-808B-F99D1E50DAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F717C2-E12A-4C50-808B-F99D1E50DAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F717C2-E12A-4C50-808B-F99D1E50DAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5C4248-2B8F-44B1-B994-3DA5C2FE55EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5C4248-2B8F-44B1-B994-3DA5C2FE55EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5C4248-2B8F-44B1-B994-3DA5C2FE55EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5C4248-2B8F-44B1-B994-3DA5C2FE55EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED0F87F-D725-4F2D-923A-A6214CC4C577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED0F87F-D725-4F2D-923A-A6214CC4C577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED0F87F-D725-4F2D-923A-A6214CC4C577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED0F87F-D725-4F2D-923A-A6214CC4C577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E733E72-B2B2-4DD7-B32C-D11C4B029FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E733E72-B2B2-4DD7-B32C-D11C4B029FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E733E72-B2B2-4DD7-B32C-D11C4B029FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E733E72-B2B2-4DD7-B32C-D11C4B029FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF84234F-A6F0-4F22-8EBC-0476986B6098}
+	EndGlobalSection
+EndGlobal
