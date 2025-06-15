@@ -23,6 +23,7 @@
 - [✨ Features](#-features)
 - [🛠️ Technologies Used](#️-technologies-used)
 - [🏗️ Architecture](#️-architecture)
+- [🗄️ Database Schema](#️-database-schema)
 - [🚀 Getting Started](#-getting-started)
 - [📡 API Endpoints](#-api-endpoints)
 - [🤝 Contributing](#-contributing)
@@ -144,6 +145,14 @@ DietaCore follows a **clean layered architecture** approach:
 - **Scalability**: Modular design supports system growth
 
 ---
+
+## 🗄️ Database Schema
+
+The DietaCore system uses a comprehensive relational database schema designed to handle user management, authentication, diet planning, meal management, and progress tracking efficiently.
+
+### 📊 Entity Relationship Diagram
+
+![Database Schema](DietaCore-DbDiagram.png)
 
 ## 🚀 Getting Started
 
