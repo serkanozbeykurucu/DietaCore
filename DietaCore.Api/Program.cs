@@ -4,8 +4,6 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
-using Swashbuckle.AspNetCore.SwaggerGen;
-using Microsoft.AspNetCore.Builder;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using DietaCore.Api.Middlewares;
 
@@ -59,6 +57,7 @@ builder.Services.AddCors(options =>
                .AllowAnyHeader();
     });
 });
+
 builder.Services.ContainerDependencies(builder.Configuration);
 
 builder.Services.AddAuthentication(options =>

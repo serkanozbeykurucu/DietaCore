@@ -20,12 +20,20 @@ namespace DietaCore.Business.Concrete
 
         public async Task<Response<List<ProgressDto>>> GetClientProgressByDietitianAsync(int clientId)
         {
+            if (clientId <= 0)
+            {
+                return new Response<List<ProgressDto>>(ResponseCode.BadRequest, "ClientId must be greater than zero.");
+            }
             var records = await _progressDal.GetByClientIdAsync(clientId);
             var dtos = records.Select(MapToDto).ToList();
             return new Response<List<ProgressDto>>(ResponseCode.Success, dtos);
         }
         public async Task<Response<ProgressSummary>> GetClientProgressSummaryByDietitianAsync(int clientId)
         {
+            if (clientId <= 0)
+            {
+                return new Response<ProgressSummary>(ResponseCode.BadRequest, "ClientId must be greater than zero.");
+            }
             var records = await _progressDal.GetByClientIdWithDetailsAsync(clientId);
             var client = records.FirstOrDefault()?.Client ?? await _clientDal.GetByIdAsync(clientId);
 
@@ -92,6 +100,10 @@ namespace DietaCore.Business.Concrete
         }
         public async Task<Response<bool>> DeleteProgressByDietitianAsync(int id)
         {
+            if (id <= 0)
+            {
+                return new Response<bool>(ResponseCode.BadRequest, "Id must be greater than zero.");
+            }
             var progress = await _progressDal.GetByIdAsync(id);
             if (progress == null)
                 return new Response<bool>(ResponseCode.NotFound, "Kayıt bulunamadı");
